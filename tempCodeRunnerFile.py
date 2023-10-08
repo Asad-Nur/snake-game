@@ -93,6 +93,7 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
+    
         # Whenever a key is pressed down
         elif event.type == pygame.KEYDOWN:
             # W -> Up; S -> Down; A -> Left; D -> Right
